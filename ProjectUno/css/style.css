@@ -1,10 +1,11 @@
 body{
     width: 100%;
     height: 100%;
-    margin: 0px;
+    /* margin: 0px; */
     background-color: rgb(235, 156, 103);
-    /* background-image: url("../images/background_3.jpg");
-    background-repeat: repeat-x; */
+    background-image: url("../images/background_3.jpg");
+    /* background-repeat: repeat-x; */
+    background-position-y: 60px;
 }
 
 .container-main{
@@ -24,7 +25,7 @@ body{
     background-color: chocolate;
     min-height: auto;
     overflow: hidden;
-    height: 3vw;
+    height: 3.5vw;
 }
 
 .menu-item{
@@ -38,13 +39,12 @@ body{
 }
 
 .menu-line{
-
     margin: auto;
     background-color: white;
     /* border-color: white; */
     color: white;
     height: 100%;
-    width: 1px;
+    width: 2px;
 }
 
 .toleft{
@@ -53,15 +53,18 @@ body{
 
 .card{
     height: 100px;
-    width: 50px;
+    width: 63px;
     background-color: wheat;
-    border-radius: 3px;
+    border-radius: 8px;
     margin: 2px;
     border: 5px white solid;
     color: rgb(0, 0, 0);
     font-weight: 800;
     padding: 2px;
     cursor: grab;
+    /* margin-left: -25px; */
+    /* background-image: url("../images/colorCard.png"); */
+    background-size: cover;
 }
 
 .player-area{
@@ -72,6 +75,7 @@ body{
     overflow: hidden;
     padding: 50px;
     /* clear: both; */
+    padding-left: 100px;
 }
 
 .play-area{
@@ -81,12 +85,13 @@ body{
     /* border: 1px solid black; */
     /* overflow: hidden; */
     padding: 30px;
-    /* clear: both; */
+    padding-left: 100px;
 }
 
 .top-number{
     /* margin: 20%; */
-    font-size: xx-large;
+    font-size: large;
+    color: white;
 }
 
 .uno-button{
@@ -98,3 +103,40 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
+
+#deck{
+    background-color: rgb(10, 255, 222);
+    /* color: rgb(16, 0, 243); */
+    background-image: url("../images/deck.png");
+    margin: 0px 50px;
+}
+
+#play{
+    margin: 0px 100px;
+    background-color: rgb(235, 156, 103);
+}
+
+.card-number{
+    height: 40%;
+    width: 50%;
+    text-align: center;
+    padding: 10px 14px;
+    font-size: xx-large;
+    color: white;
+    /* background-image: url("../images/background_2.jpg"); */
+}
+/* 
+.card-color{
+    height: 40%;
+    width: 50%;
+    text-align: center;
+    padding: 7px 12px;
+    font-size: xx-large;
+    border: 4px white solid;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 70%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 70%;
+    color: white;
+    background-image: url("../images/background_2.jpg");
+} */
