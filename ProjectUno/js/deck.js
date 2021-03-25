@@ -49,15 +49,15 @@ export default class Deck{
         return this.cards.shift();
     }
 
-    loadImage(url){
-        return new Promise(resolve => {
-            const image = new Image();
-            image.addEventListener("load", () => {
-                resolve(image);
-            });
-            image.src = url;
-        })
-    }
+    // loadImage(url){
+    //     return new Promise(resolve => {
+    //         const image = new Image();
+    //         image.addEventListener("load", () => {
+    //             resolve(image);
+    //         });
+    //         image.src = url;
+    //     })
+    // }
 }
 
 class card{
